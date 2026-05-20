@@ -1,0 +1,12 @@
+ name:aqib 
+
+ on:
+ push:
+ branches: [ main ]
+ jobs:
+ demo:
+ run-on: ubuntu-latest
+ steps:
+ - name:testing
+ run:echo "hello form saqib"
+ 
