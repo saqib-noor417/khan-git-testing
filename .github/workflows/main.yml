@@ -1,4 +1,4 @@
- name:aqib 
+ name: aqib 
 
  on:
  push:
@@ -8,5 +8,5 @@
  run-on: ubuntu-latest
  steps:
  - name:testing
- run:echo "hello form saqib"
+ run: echo "hello form saqib"
  
